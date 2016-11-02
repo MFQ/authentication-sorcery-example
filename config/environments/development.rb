@@ -39,7 +39,7 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: '127.0.0.1:3000' }
 
-   config.action_mailer.perform_deliverie = true
+  config.action_mailer.perform_deliveries = true
 
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
